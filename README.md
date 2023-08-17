@@ -47,7 +47,7 @@ Valores possíveis para [stage]:
 -	primary_cleaner — purificação primária
 -	secondary_cleaner — purificação secundária
 -	final — características finais
--	
+  
 Valores possíveis para [parameter_type]:
 -	input — parâmetros de matéria-prima
 -	output — parâmetros do produto
