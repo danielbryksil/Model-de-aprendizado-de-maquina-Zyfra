@@ -28,6 +28,7 @@ Processo tecnológico
 -	Cleaner process — purificação
 -	Rougher Au — concentrado de ouro bruto
 -	Final Au — concentrado de ouro final
+
 Parâmetros das etapas
 -	air amount — volume of air — volume de ar
 -	fluid levels
