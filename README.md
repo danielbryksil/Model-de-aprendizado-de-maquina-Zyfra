@@ -76,19 +76,29 @@ O sMAPE é calculado assim:
 ![image](https://github.com/danielbryksil/Model-de-aprendizado-de-maquina-Zyfra/assets/116821863/2576e1fa-dffc-4189-a705-380a2476ab8b)
 
 Denotação:
+
 ![image](https://github.com/danielbryksil/Model-de-aprendizado-de-maquina-Zyfra/assets/116821863/2462d2ce-ae0a-441c-8307-4617b5e7d976)
+
 -	Valor do objetivo para a observação com o índice i no conjunto utilizado para medir a qualidade.
+  
 ![image](https://github.com/danielbryksil/Model-de-aprendizado-de-maquina-Zyfra/assets/116821863/3cbf4bc4-7375-47f4-a982-1f034fddef4b)
+
 -	Valor da predição para a observação com o índice i, por exemplo, na amostra de teste.
+  
 ![image](https://github.com/danielbryksil/Model-de-aprendizado-de-maquina-Zyfra/assets/116821863/5b88c877-bcb9-434b-ac16-1f98a68d2c73)
+
 - Número de observações na amostra.
+  
 ![image](https://github.com/danielbryksil/Model-de-aprendizado-de-maquina-Zyfra/assets/116821863/dcf99e98-ff37-489a-9ef6-50f7c8a3adfd)
+
 -	Somatório de todas as observações da amostra (i assume valores de 1 a N).
+  
 Precisamos predizer dois valores:
 1.	Quantidade retirada do concentrado bruto rougher.output.recovery
 2.	Quantidade retirada final do concentrado final.output.recovery
 
 A métrica final inclui os dois valores:
+
 ![image](https://github.com/danielbryksil/Model-de-aprendizado-de-maquina-Zyfra/assets/116821863/fbc4feb9-ac4e-41b5-9e5e-4e881a5a9c8f)
 
 
