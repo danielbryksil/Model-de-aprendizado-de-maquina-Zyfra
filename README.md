@@ -101,6 +101,31 @@ A métrica final inclui os dois valores:
 
 ![image](https://github.com/danielbryksil/Model-de-aprendizado-de-maquina-Zyfra/assets/116821863/fbc4feb9-ac4e-41b5-9e5e-4e881a5a9c8f)
 
+## Descrição do projeto
+
+Os dados são armazenados em três arquivos:
+-	gold_recovery_train.csv — download do conjunto de dados de treinamento
+-	gold_recovery_test.csv — download do conjunto de dados de teste
+-	gold_recovery_full.csv — download do conjunto de dados fonte
+-	
+Os dados são indexados com a data e hora da aquisição (característica data). Os parâmetros que estão próximos uns dos outros em termos de tempo geralmente são semelhantes.
+Alguns parâmetros não estão disponíveis porque foram medidos e/ou calculados muito mais tarde. Por isso, algumas das características presentes no conjunto de treinamento podem estar ausentes do conjunto de teste. O conjunto de teste também não contém objetivos.
+
+O conjunto de dados de origem contém os conjuntos de treinamento e teste com todas as características.
+Os dados são brutos, recebidos diretamente do cliente. Antes de construir o modelo, verifiquei a exatidão dos dados. Para isso, usei as seguintes instruções.
+
+## Instruções do projeto
+1.1. Abra os arquivos e estude os dados.
+Caminho para os arquivos:
+•	/datasets/gold_recovery_train.csv
+•	/datasets/gold_recovery_test.csv
+•	/datasets/gold_recovery_full.csv
+1.2. Verifique se a quantidade retirada foi calculada corretamente. Usando o conjunto de treinamento, calcule a quantidade retirada para a característica rougher.output.recovery. Encontre o EAM entre seus cálculos e os valores das características. Forneça resultados.
+1.3. Analise as características não disponíveis no conjunto de teste. Quais são esses parâmetros? Qual é o tipo deles?
+1.4. Faça o pré-processamento de dados.
+
+
+
 
 
 
