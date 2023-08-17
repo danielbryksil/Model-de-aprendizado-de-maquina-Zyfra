@@ -115,14 +115,24 @@ O conjunto de dados de origem contém os conjuntos de treinamento e teste com to
 Os dados são brutos, recebidos diretamente do cliente. Antes de construir o modelo, verifiquei a exatidão dos dados. Para isso, usei as seguintes instruções.
 
 ## Instruções do projeto
-1.1. Abra os arquivos e estude os dados.
-Caminho para os arquivos:
-•	/datasets/gold_recovery_train.csv
-•	/datasets/gold_recovery_test.csv
-•	/datasets/gold_recovery_full.csv
-1.2. Verifique se a quantidade retirada foi calculada corretamente. Usando o conjunto de treinamento, calcule a quantidade retirada para a característica rougher.output.recovery. Encontre o EAM entre seus cálculos e os valores das características. Forneça resultados.
-1.3. Analise as características não disponíveis no conjunto de teste. Quais são esses parâmetros? Qual é o tipo deles?
-1.4. Faça o pré-processamento de dados.
+1. Prepare os dados
+- Abrir os arquivos e estudar os dados.
+- Verificar se a quantidade retirada foi calculada corretamente. Usando o conjunto de treinamento, calcular a quantidade retirada para a característica rougher.output.recovery. Encontrar o EAM entre cálculos e os valores das características. 
+- Analisar as características não disponíveis no conjunto de teste. 
+- Fazer o pré-processamento de dados.
+
+2. Analise os dados
+- Observar como a concentração de metais (Au, Ag, Pb) muda dependendo do estágio de purificação.
+- Comparar as distribuições de tamanho de partícula de minério no conjunto de treinamento e no conjunto de teste. Se as distribuições variarem significativamente, a avaliação do modelo estará incorreta.
+- Considerar as concentrações totais de todas as substâncias em diferentes estágios: minério bruto, concentrado bruto e concentrado final.
+
+3. Construir o modelo
+- Escrever uma função para calcular o valor final sMAPE.
+- Treinar modelos diferentes. Avalie-os usando validação cruzada. Escolher o melhor modelo e teste-o usando a amostra de teste. Fornecer resultados.
+
+
+
+
 
 
 
