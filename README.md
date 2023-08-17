@@ -37,13 +37,17 @@ Parâmetros das etapas
 
 ## Nomeação de características
 Veja como são nomeadas as características:
+
 [stage].[parameter_type].[parameter_name]
+
 Exemplo: rougher.input.feed_ag
+
 Valores possíveis para [stage]:
 -	rougher — (Minério bruto) flotação
 -	primary_cleaner — purificação primária
 -	secondary_cleaner — purificação secundária
 -	final — características finais
+-	
 Valores possíveis para [parameter_type]:
 -	input — parâmetros de matéria-prima
 -	output — parâmetros do produto
